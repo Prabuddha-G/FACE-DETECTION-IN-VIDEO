@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier("D:/Face Detection\haarcascade_frontalface_default.xml")
 
 # To capture video from existing video. 
-cap = cv2.VideoCapture("D:/Face Detection/People Power in a Pandemic.mp4")
+cap = cv2.VideoCapture("D:/Face Detection/test video/People Wearing Face Masks _ Free B Roll & Music.mp4")
 
 while True:
     # Read the frame
